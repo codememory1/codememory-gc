@@ -1,0 +1,20 @@
+{
+  "name": "codememory-gc",
+  "version": "1.0.0",
+  "description": "Codememory package for working with global configuration",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codememory1/codememory-gc"
+  },
+  "homepage": "git://github.com/codememory1/codememory-g/readme.md",
+  "main": "./lib/index.js",
+  "author": "Codememory <codememory@gmail.com>",
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "json": "^11.0.0"
+  }
+}
